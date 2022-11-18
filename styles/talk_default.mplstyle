@@ -1,0 +1,47 @@
+#talk default
+
+figure.figsize   : 14.17, 10.63
+
+text.color: darkorange
+xtick.labelsize: 25
+xtick.color: darkorange
+xtick.minor.size: 5
+xtick.minor.width: 2
+xtick.major.size: 10
+xtick.major.width: 4
+
+ytick.labelsize: 25
+ytick.color: darkorange
+ytick.minor.size: 5
+ytick.minor.width: 2
+ytick.major.size: 10
+ytick.major.width: 4
+
+
+
+
+axes.labelsize: 20
+axes.linewidth: 4
+axes.edgecolor: darkorange
+axes.facecolor: none
+axes.labelcolor: darkorange
+
+lines.linewidth: 4
+
+ytick.major.pad  : 8
+xtick.major.pad  : 8
+
+font.weight: bold
+text.usetex: False
+font.size        : 16
+font.family      : sans-serif
+font.sans-serif      : ['lmodern']
+mathtext.default : sf
+
+
+contour.negative_linestyle: solid
+
+#text.latex.unicode: True
+text.latex.preamble: \usepackage{lmodern}, \usepackage{cmbright}
+
+axes.prop_cycle    : cycler('color', ['tomato', 'darkorchid', 'darkorange', '1f77b4', 'ff7f0e', '2ca02c', 'd62728', '9467bd', '8c564b', 'e377c2', '7f7f7f', 'bcbd22', '17becf'])

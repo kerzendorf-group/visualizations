@@ -1,0 +1,29 @@
+#paper default
+
+
+figure.figsize   : 6.93, 5.1975 # 14.17, 10.63
+axes.linewidth   : 1
+
+ytick.major.pad  : 8
+ytick.color      : black
+ytick.direction  : in
+
+xtick.major.pad  : 8
+xtick.color      : black
+xtick.direction  : in
+
+
+font.size        : 16
+font.family      : sans-serif
+font.sans-serif      : ['lmodern']
+mathtext.default : sf
+text.usetex      : True
+
+pgf.rcfonts: False
+
+contour.negative_linestyle: solid
+
+#text.latex.unicode: True
+text.latex.preamble: \usepackage{lmodern}, \usepackage{cmbright}
+
+#axes.prop_cycle    : cycler('color', ['tomato', 'darkorchid', 'darkorange', '1f77b4', 'ff7f0e', '2ca02c', 'd62728', '9467bd', '8c564b', 'e377c2', '7f7f7f', 'bcbd22', '17becf'])
